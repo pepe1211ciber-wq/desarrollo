@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-selector {
+    margin-bottom: 10px;
+    width: 80%; /* Ancho del selector de colores */
+}
+
+.color-div {
+    width: 80%; /* Ancho del div de color */
+    height: 100px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+#div1 {
+    background-color: white;
+}
+
+#div2 {
+    background-color: white;
+}
+
+#div3 {
+    background-color: white;
+}

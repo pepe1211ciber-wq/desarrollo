@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas con Drag and Drop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tareas</h1>
+        <div class="tareas">
+            <div class="tarea" draggable="true">
+                <span class="texto-tarea">Tarea 1</span>
+                <form class="form-fecha">
+                    <label for="fecha1">Fecha:</label>
+                    <input type="date" id="fecha1" name="fecha">
+                </form>
+            </div>
+            <div class="tarea" draggable="true">
+                <span class="texto-tarea">Tarea 2</span>
+                <form class="form-fecha">
+                    <label for="fecha2">Fecha:</label>
+                    <input type="date" id="fecha2" name="fecha">
+                </form>
+            </div>
+            <div class="tarea" draggable="true">
+                <span class="texto-tarea">Tarea 3</span>
+                <form class="form-fecha">
+                    <label for="fecha3">Fecha:</label>
+                    <input type="date" id="fecha3" name="fecha">
+                </form>
+            </div>
+            <div class="tarea" draggable="true">
+                <span class="texto-tarea">Tarea 4</span>
+                <form class="form-fecha">
+                    <label for="fecha4">Fecha:</label>
+                    <input type="date" id="fecha4" name="fecha">
+                </form>
+            </div>
+        </div>
+        <div class="completadas">
+            <h2>Tareas Completadas</h2>
+        </div>
+    </div>
+    <script src="java/escrirt.js"></script>
+</body>
+</html>
